@@ -20,4 +20,4 @@ This Project Proposes a Real time Chating platform where one can create a Projec
 download apk : https://drive.google.com/file/d/16FsS7DDpDz3S7_AmoQxzawuYUR_1nqxu/view?usp=sharing
 
 
-![ITER CONNECT Icon](./ITER CONNECT logo.png)
+![ITER CONNECT Icon](./ITER%20CONNECT%20logo.png)
