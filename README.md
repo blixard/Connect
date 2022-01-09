@@ -13,7 +13,7 @@ One of the most common problem faced by people in genral is to find a group of p
 ![About 2](./ScreenShots/ss9.jpg?raw=true "Title")          
 ![About 3](./ScreenShots/ss10.jpg?raw=true "Title")
 
-![Menu](.ScreenShots/ss4.jpg?raw=true "Title")  
+![Menu](./ScreenShots/ss4.jpg?raw=true "Title")  
 ![setting](./ScreenShots/ss3.jpg?raw=true "Title")
 
 ![Search](./ScreenShots/ss2?raw=true "Title")
