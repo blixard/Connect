@@ -16,7 +16,7 @@ One of the most common problem faced by people in genral is to find a group of p
 ![Menu](./ScreenShots/ss4.jpg?raw=true "Title")  
 ![setting](./ScreenShots/ss3.jpg?raw=true "Title")
 
-![Search](./ScreenShots/ss2?raw=true "Title")
+![Search](./ScreenShots/ss2.jpg?raw=true "Title")
 ![Chat Room](./ScreenShots/ss1.jpg?raw=true "Title")
 
 
