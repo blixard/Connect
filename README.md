@@ -17,7 +17,7 @@ One of the most common problem faced by people in genral is to find a group of p
 ![setting](./ScreenShots/ss3.jpg?raw=true "Title")
 
 ![Search](./ScreenShots/ss2.jpg?raw=true "Title")
-![Chat Room](./ScreenShots/ss1.jpg?raw=true "Title")
+![Chat Room](./ScreenShots/ss1r.jpg?raw=true "Title")
 
 
 download apk : https://drive.google.com/file/d/12YNkkzEVfg36DNPLQzuTbLxZTOyYmFKs/view?usp=sharing
