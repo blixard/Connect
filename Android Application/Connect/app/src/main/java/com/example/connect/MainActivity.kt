@@ -13,6 +13,10 @@ import com.example.iterconnect.Users
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.firebase.database.*
 import java.util.ArrayList
+import android.content.SharedPreferences
+
+
+
 
 class MainActivity : AppCompatActivity(), CustomAdapter.OnRoomListener {
     private var database: FirebaseDatabase? = null
@@ -24,6 +28,7 @@ class MainActivity : AppCompatActivity(), CustomAdapter.OnRoomListener {
         setContentView(R.layout.activity_main)
         getUserId()
         setNavBtns()
+
     }
 
     private fun setNavBtns() {
@@ -35,10 +40,10 @@ class MainActivity : AppCompatActivity(), CustomAdapter.OnRoomListener {
             val intent = Intent(applicationContext, SettingPage::class.java)
             startActivity(intent)
         }
-//        findViewById<View>(R.id.iv_search_btn).setOnClickListener {
-//            val intent = Intent(applicationContext, TestActivity::class.java)
-//            startActivity(intent)
-//        }
+        findViewById<View>(R.id.iv_search_btn).setOnClickListener {
+            val intent = Intent(applicationContext, searchRoom::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun getUserId() {
@@ -122,6 +127,6 @@ class MainActivity : AppCompatActivity(), CustomAdapter.OnRoomListener {
     }
 
     companion object {
-        private const val TAG = "MainActivity"
+        const val TAG = "MainActivity"
     }
 }

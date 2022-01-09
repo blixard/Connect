@@ -4,13 +4,20 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Connect/app/src/main/res/drawable/navbar_bg.xml" value="0.1" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Connect/app/src/main/res/layout/activity_about_page.xml" value="0.1" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Connect/app/src/main/res/layout/activity_chat_room.xml" value="0.12708333333333333" />
-        <entry key="..\:/Users/Asus/AndroidStudioProjects/Connect/app/src/main/res/layout/activity_create_room.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Connect/app/src/main/res/layout/activity_create_room.xml" value="0.2" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Connect/app/src/main/res/layout/activity_main.xml" value="0.176" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Connect/app/src/main/res/layout/activity_menu_screen.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Connect/app/src/main/res/layout/activity_search_room.xml" value="0.264" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Connect/app/src/main/res/layout/activity_signin_page.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Connect/app/src/main/res/layout/activity_splash_screen.xml" value="0.2463768115942029" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Connect/app/src/main/res/layout/fragment_about1.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Connect/app/src/main/res/layout/fragment_about2.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Connect/app/src/main/res/layout/fragment_about3.xml" value="0.12708333333333333" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Connect/app/src/main/res/layout/message_list_rv.xml" value="0.12708333333333333" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Connect/app/src/main/res/layout/text_row_item.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Connect/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.12864583333333332" />
       </map>
     </option>
   </component>

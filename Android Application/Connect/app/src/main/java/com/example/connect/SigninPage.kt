@@ -137,7 +137,7 @@ class SigninPage : AppCompatActivity() {
     private fun addRoom(id: String) {
         val dbRoom = FirebaseDatabase.getInstance()
         val refRoom = dbRoom.getReference("rooms")
-        val room = Room(id, "Chat bot", id, id, "adminPass@123")
+        val room = Room(id, "Chat bot", id, id, "adminPass@123","chat bot" , "bot","none")
         refRoom.child(id).setValue(room)
     }
 

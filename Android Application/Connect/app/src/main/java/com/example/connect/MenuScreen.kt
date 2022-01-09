@@ -28,5 +28,15 @@ class MenuScreen : AppCompatActivity() {
             val intent = Intent(applicationContext, SettingPage::class.java)
             startActivity(intent)
         }
+        val clAbout = findViewById<ConstraintLayout>(R.id.cl_about_menu)
+        clAbout.setOnClickListener {
+            val intent = Intent(applicationContext, AboutPage::class.java)
+            startActivity(intent)
+        }
+        val clSearch = findViewById<ConstraintLayout>(R.id.cl_search_menu)
+        clSearch.setOnClickListener {
+            val intent = Intent(applicationContext, searchRoom::class.java)
+            startActivity(intent)
+        }
     }
 }

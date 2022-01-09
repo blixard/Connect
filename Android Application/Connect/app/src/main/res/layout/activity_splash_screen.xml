@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/blue_dark"
     tools:context=".SplashScreen">
 
     <com.airbnb.lottie.LottieAnimationView
@@ -26,6 +27,7 @@
         android:layout_marginStart="116dp"
         android:layout_marginBottom="340dp"
         android:text="IterConnect"
+        android:textColor="@color/blue_dark_4"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

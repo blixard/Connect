@@ -27,13 +27,19 @@ class CreateRoom : AppCompatActivity() {
             val etRoomName = findViewById<View>(R.id.et_roomname_cr) as EditText
             val etRoomId = findViewById<View>(R.id.et_roomid_cr) as EditText
             val etRoomPass = findViewById<View>(R.id.et_roompass_cr) as EditText
+            val etRoomDes = findViewById<View>(R.id.et_description_cr) as EditText
+            val etRoomTags = findViewById<View>(R.id.et_tags_cr) as EditText
+            val etRoomPositions = findViewById<View>(R.id.et_positions_cr) as EditText
             val roomName = etRoomName.text.toString()
             val roomId = etRoomId.text.toString()
             val roomPass = etRoomPass.text.toString()
+            val roomDescription = etRoomDes.text.toString()
+            val roomTags = etRoomTags.text.toString()
+            val roomPositions = etRoomPositions.text.toString()
 
 
             // TODO: 23-10-2021  check if room id is not there already in database
-            setRoomFirebase(roomName, roomId, roomPass)
+            setRoomFirebase(roomName, roomId, roomPass , roomDescription, roomTags, roomPositions)
             val intent = Intent(applicationContext, MainActivity::class.java)
             startActivity(intent)
         }
@@ -60,16 +66,16 @@ class CreateRoom : AppCompatActivity() {
     }
 
     // TODO: 22-10-2021 add user's id to users of Room Object while pushing Room class
-    private fun setRoomFirebase(roomName: String, roomId: String, roomPass: String) {
+    private fun setRoomFirebase(roomName: String, roomId: String, roomPass: String , roomDescription: String , roomTags : String , roomPositions:String ) {
         database = FirebaseDatabase.getInstance()
         databaseReference = database!!.getReference("rooms")
         val id = databaseReference!!.push().key
         val idOfficial = id + "_official"
         val idUnofficial = id + "_un"
-        val roomOfficial = Room(idOfficial, roomName + "_official", "users", roomId, roomPass)
+        val roomOfficial = Room(idOfficial, roomName + "_official", "users", roomId, roomPass, roomDescription,roomTags,roomPositions)
         databaseReference!!.child(idOfficial!!).setValue(roomOfficial)
 
-        val roomUn = Room(idUnofficial, roomName + "_unofficial", "users", roomId, roomPass)
+        val roomUn = Room(idUnofficial, roomName + "_unofficial", "users", "", "",roomDescription,roomTags,roomPositions)
         databaseReference!!.child(idUnofficial!!).setValue(roomUn)
 
         setRoominUser("$idOfficial;$idUnofficial")
